@@ -1,5 +1,28 @@
 # Docker Notes
 
+## Index
+1. [Introduction to Docker](#introduction-to-docker)
+2. [Docker Hub](#docker-hub)
+3. [Installation](#installation)
+4. [Docker Commands and Usage](#docker-commands-and-usage)
+   - [Getting Started](#getting-started)
+   - [Managing Containers](#managing-containers)
+   - [Managing Images](#managing-images)
+   - [Executing Commands](#executing-commands)
+   - [Interactive Mode and TTY](#interactive-mode-and-tty)
+   - [Port Mapping](#port-mapping)
+   - [Volume Mapping](#volume-mapping)
+   - [Inspecting a Container](#inspecting-a-container)
+   - [Viewing Container Logs](#viewing-container-logs)
+   - [Environment Variables](#environment-variables)
+5. [Creating Your Own Docker Image](#creating-your-own-docker-image)
+   - [Conceptualizing the Process](#conceptualizing-the-process)
+   - [Example Dockerfile for a Flask Application](#example-dockerfile-for-a-flask-application)
+   - [Explanation of the Dockerfile](#explanation-of-the-dockerfile)
+   - [Building and Pushing the Image](#building-and-pushing-the-image)
+   - [Docker's Layered Architecture](#dockers-layered-architecture)
+
+
 ## Introduction to Docker
 Docker is an open-source platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly.
 
